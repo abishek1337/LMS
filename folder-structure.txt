@@ -1,0 +1,20 @@
+htdocs/
+└── OpenStax/
+    ├── db.php                 # Database connection file
+    ├── uploads/               # Directory for uploaded files
+    │   ├── (uploaded files go here)
+    ├── pages/                 # Directory for all PHP pages
+    │   ├── user_login.php     # User login page for students and teachers
+    │   ├── admin_register.php # Admin registration page
+    │   ├── user_dashboard.php # User dashboard for students and teachers
+    │   ├── admin_login.php    # Admin login page
+    │   ├── admin_dashboard.php # Admin dashboard
+    │   ├── permissions.php    # Admin: Manage permissions for files
+    │   ├── courses.php        # Admin: Manage courses
+    │   ├── profile.php        # Admin: Profile and account management
+    │   ├── resources.php      # Admin: Manage resources
+    │   ├── users.php          # Admin: Manage users
+    │   ├── user_logout.php    # Logout script for users
+    │   ├── admin_logout.php   # Logout script for admins
+    ├── styles.css             # Optional: Custom CSS styles
+    ├── README.md              # Documentation file (optional)
